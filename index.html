@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>A. Yogeshwari | Frontend Developer & Data Science Enthusiast</title>
+
+<meta name="description" content="Welcome to A. Yogeshwari's portfolio. Explore my frontend development skills, web design projects, programming knowledge, data analytics expertise, education, and certifications.">
+
+<meta name="keywords" content="A. Yogeshwari, personal portfolio, frontend developer, web developer, HTML, CSS, JavaScript, Bootstrap, Python, Data Science, Power BI, Data Analytics">
+
+<meta name="author" content="A. Yogeshwari">
+
+<meta name="robots" content="index, follow">
+
+<!-- Bootstrap 5 -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="font/bootstrap-icons.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="css/all.min.css">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Original CSS: Keeps existing animations and styling -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/mystyle.css">
+
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- Decorative Background -->
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+<div class="orb orb-4"></div>
+<div class="grid-bg"></div>
+
+<nav id="main-nav">
+    <div class="nav-dot active"
+         data-section="0"
+         data-label="Home"></div>
+
+    <div class="nav-dot"
+         data-section="1"
+         data-label="About Me"></div>
+
+    <div class="nav-dot"
+         data-section="2"
+         data-label="My Skills"></div>
+
+    <div class="nav-dot"
+         data-section="3"
+         data-label="Education"></div>
+
+    <div class="nav-dot"
+         data-section="4"
+         data-label="Contact Me"></div>
+</nav>
+
+<!-- ===== SECTION 0: HOME ===== -->
+<section class="section active" id="sec-0">
+
+  <div class="section-content home-content">
+
+    <div class="home-pre">Welcome to My Portfolio</div>
+
+    <div class="glitch-wrap" data-text="A. YOGESHWARI">
+      <h1 class="home-name">A. YOGESHWARI</h1>
+    </div>
+
+    <p class="home-role">
+      Frontend Developer &amp; <span>Data Science</span> Enthusiast
+    </p>
+
+    <p class="home-description">
+      Passionate about designing beautiful websites,
+      developing interactive web experiences, and
+      transforming data into meaningful insights using
+      Python, Power BI, and data analytics.
+    </p>
+
+    <div class="home-cta">
+
+      <a href="resume.pdf" class="btn-glow" download="yogeshwari_resume">
+        Download CV
+      </a>
+
+      <a href="#" class="btn-outline-glow"
+         onclick="goTo(1); return false;">
+        Know More
+      </a>
+
+    </div>
+
+    <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+      scroll
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ===== SECTION 1: ABOUT ===== -->
+<section class="section" id="sec-1">
+
+  <div class="section-content">
+
+    <div class="about-grid">
+
+      <!-- Profile Image -->
+      <div class="about-img-wrap">
+
+        <div class="about-img-frame">
+          <img src="./pic.jpeg" alt="A. Yogeshwari">
+        </div>
+
+        <div class="about-img-deco"></div>
+
+      </div>
+
+      <!-- About Content -->
+      <div>
+
+        <div class="section-label">Who I Am</div>
+
+        <div class="about-title">
+          Creative <span class="accent">Mind,</span><br>
+          Precise Code.
+        </div>
+
+        <p class="about-desc">
+          Hi! I'm A. Yogeshwari, a passionate frontend developer
+          and aspiring data scientist who loves creating
+          attractive, responsive, and user-friendly websites.
+
+          <br><br>
+
+          I work with HTML, CSS, JavaScript, Bootstrap, C,
+          C++, Python, NumPy, Pandas, Matplotlib, Power BI,
+          R, and MySQL. I'm passionate about combining
+          creative web design with data-driven problem-solving
+          to build meaningful digital experiences.
+        </p>
+
+
+        <!-- Action Buttons -->
+        <div class="about-cta">
+
+          <a href="mailto:yogiashok2824@gmail.com"
+             class="btn-glow">
+            Hire Me
+          </a>
+
+          <a href="#"
+             class="btn-outline-glow"
+             onclick="goTo(4); return false;">
+            Contact Me
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ===== SECTION 2: SKILLS ===== -->
+<section class="section" id="sec-2">
+
+  <div class="section-content stats-wrap">
+
+    <div class="section-label">Technical Expertise</div>
+
+    <div class="section-title">My Skills</div>
+
+    <div class="skills-bars">
+
+      <div class="skill-bar-wrap">
+        <div class="skill-bar-label">
+          <span>C Programming</span>
+          <span>80%</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="80"></div>
+        </div>
+      </div>
+
+      <div class="skill-bar-wrap">
+        <div class="skill-bar-label">
+          <span>C++</span>
+          <span>75%</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="75"></div>
+        </div>
+      </div>
+
+      <div class="skill-bar-wrap">
+        <div class="skill-bar-label">
+          <span>Python</span>
+          <span>70%</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="70"></div>
+        </div>
+      </div>
+
+      <div class="skill-bar-wrap">
+        <div class="skill-bar-label">
+          <span>HTML &amp; CSS</span>
+          <span>90%</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="90"></div>
+        </div>
+      </div>
+
+      <div class="skill-bar-wrap">
+        <div class="skill-bar-label">
+          <span>JavaScript</span>
+          <span>70%</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="70"></div>
+        </div>
+      </div>
+
+      <div class="skill-bar-wrap">
+        <div class="skill-bar-label">
+          <span>Power BI</span>
+          <span>75%</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="75"></div>
+        </div>
+      </div>
+
+      <div class="skill-bar-wrap">
+        <div class="skill-bar-label">
+          <span>Data Analytics</span>
+          <span>70%</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="70"></div>
+        </div>
+      </div>
+
+      <div class="skill-bar-wrap">
+        <div class="skill-bar-label">
+          <span>SQL</span>
+          <span>65%</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="65"></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ===== EDUCATION & CERTIFICATIONS SECTION ===== -->
+<section class="section" id="sec-3">
+
+    <div class="section-content resume-wrap">
+
+        <div class="section-label">My Journey</div>
+
+        <div class="section-title">Education &amp; Certifications</div>
+
+        <p class="resume-subtitle">
+            My academic journey, technical training,
+            and professional qualifications.
+        </p>
+
+        <div class="resume-timeline">
+
+            <!-- Bachelor's Degree -->
+            <div class="resume-item">
+                <div class="resume-dot"></div>
+
+                <div class="resume-card">
+                    <span class="resume-year">2025 - 2029</span>
+
+                    <h3>B.E. Computer Science and Engineering</h3>
+
+                    <p>
+                        Currently pursuing my bachelor's degree
+                        at Rajiv Gandhi College of Engineering.
+                    </p>
+                </div>
+            </div>
+
+            <!-- MSDS Course -->
+            <div class="resume-item">
+                <div class="resume-dot"></div>
+
+                <div class="resume-card">
+                    <span class="resume-year">2026 - 2027</span>
+
+                    <h3>Master of Software in Data Science (MSDS)</h3>
+
+                    <p>
+                        Pursuing specialized training in Data Science
+                        at Apollo Computer Education Ltd., Tambaram.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Higher Secondary Education -->
+            <div class="resume-item">
+                <div class="resume-dot"></div>
+
+                <div class="resume-card">
+                    <span class="resume-year">2025</span>
+
+                    <h3>Higher Secondary Education</h3>
+
+                    <p>
+                        Completed my Higher Secondary Education at
+                        Government Girls Higher Secondary School,
+                        Kundrathur.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Typing Certifications -->
+            <div class="resume-item">
+                <div class="resume-dot"></div>
+
+                <div class="resume-card">
+                    <span class="resume-year">2025 - 2026</span>
+
+                    <h3>Junior &amp; Senior Grade Typewriting</h3>
+
+                    <p>
+                        Completed Junior and Senior Grade Typewriting
+                        qualifications at Mahesh Typewriting Institute,
+                        Nallur.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===== END EDUCATION & CERTIFICATIONS SECTION ===== -->
+
+<!-- ===== SECTION 4: CONTACT ===== -->
+<section class="section" id="sec-4">
+
+  <div class="section-content contact-wrap">
+
+    <div class="section-label">GET IN TOUCH</div>
+
+    <div class="section-title">Let's Connect</div>
+
+    <p class="contact-sub">
+      Have a project idea, a question, or an opportunity to share?
+      I'd love to hear from you!
+      Feel free to drop me a message below.
+    </p>
+
+    <!-- Email Contact -->
+    <a class="contact-email"
+       href="mailto:your-yogiashok2824@gmail.com">
+      Get In Touch
+    </a>
+
+    <!-- Contact Form -->
+    <form class="contact-form"
+          action="mailto:your-yogiashok2824@gmail.com"
+          method="post"
+          enctype="text/plain">
+
+      <div class="cf-row">
+
+        <input
+          class="cf-field"
+          type="text"
+          name="Name"
+          placeholder="Your Name"
+          aria-label="Your Name"
+          autocomplete="name"
+          required>
+
+        <input
+          class="cf-field"
+          type="email"
+          name="Email"
+          placeholder="Your Email Address"
+          aria-label="Your Email Address"
+          autocomplete="email"
+          required>
+
+      </div>
+
+      <textarea
+        class="cf-field"
+        name="Message"
+        placeholder="Write your message here..."
+        aria-label="Your Message"
+        rows="5"
+        required></textarea>
+
+      <button type="submit" class="btn-glow">
+        Send Message &nbsp;
+        <i class="bi bi-send-fill" aria-hidden="true"></i>
+      </button>
+
+    </form>
+
+    <!-- Social Links: Replace # with your profile URLs -->
+    <div class="socials">
+
+      <a href="https://www.linkedin.com/"
+         class="social-btn"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="LinkedIn">
+        <i class="bi bi-linkedin"></i>
+      </a>
+
+      <a href="https://github.com/"
+         class="social-btn"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="GitHub">
+        <i class="bi bi-github"></i>
+      </a>
+
+      <a href="mailto:your-yogiashok2824@gmail.com"
+         class="social-btn"
+         aria-label="Email">
+        <i class="bi bi-envelope-fill"></i>
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- ===== END CONTACT SECTION ===== -->
+
+<!-- ===== ORIGINAL SCRIPTS ===== -->
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- GSAP Animation Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+<!-- Local Libraries -->
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/gsap.min.js"></script>
+
+<!-- Original Animation and Navigation Script -->
+<script src="js/main.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const resumeSection = document.getElementById("sec-3");
+
+    if (!resumeSection) return;
+
+    const resumeItems = resumeSection.querySelectorAll(".resume-item");
+
+    function activateResume() {
+
+        if (!resumeSection.classList.contains("active")) {
+            return;
+        }
+
+        resumeItems.forEach(function (item) {
+            item.classList.add("show");
+        });
+    }
+
+    // Observe section navigation
+    const resumeObserver = new MutationObserver(activateResume);
+
+    resumeObserver.observe(resumeSection, {
+        attributes: true,
+        attributeFilter: ["class"]
+    });
+
+    // Run if Resume is already active
+    activateResume();
+
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    // GSAP entrance animations
+    if (typeof gsap !== "undefined") {
+
+        gsap.from(".about-img-wrap", {
+            opacity: 0,
+            x: -50,
+            duration: 1,
+            ease: "power3.out",
+            delay: 0.2
+        });
+
+        gsap.from(
+            ".about-title, .about-desc, .about-cta",
+            {
+                opacity: 0,
+                y: 30,
+                duration: 0.8,
+                stagger: 0.2,
+                ease: "power2.out",
+                delay: 0.3
+            }
+        );
+
+        gsap.from("#sec-3 .contact-wrap > *", {
+            opacity: 0,
+            y: 25,
+            duration: 0.7,
+            stagger: 0.12,
+            ease: "power2.out",
+            delay: 0.2
+        });
+    }
+
+    // Animate skill bars when Skills section opens
+    const skillsSection = document.getElementById("sec-2");
+
+    function animateSkills() {
+        if (!skillsSection ||
+            !skillsSection.classList.contains("active")) {
+            return;
+        }
+
+        if (typeof gsap !== "undefined") {
+            gsap.fromTo(
+                "#sec-2 .skill-bar-wrap",
+                { opacity: 0, y: 25 },
+                {
+                    opacity: 1,
+                    y: 0,
+                    duration: 0.6,
+                    stagger: 0.15,
+                    ease: "power2.out"
+                }
+            );
+        }
+
+        document.querySelectorAll(
+            "#sec-2 .skill-bar-fill"
+        ).forEach(function (bar) {
+            bar.style.width =
+                (bar.dataset.width || 0) + "%";
+        });
+    }
+
+    if (skillsSection) {
+        const observer = new MutationObserver(animateSkills);
+
+        observer.observe(skillsSection, {
+            attributes: true,
+            attributeFilter: ["class"]
+        });
+
+        animateSkills();
+    }
+
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const skillsSection = document.getElementById("sec-2");
+
+    if (!skillsSection) return;
+
+    const bars = skillsSection.querySelectorAll(".skill-bar-fill");
+    let hasAnimated = false;
+
+    function animateSkillBars() {
+        if (!skillsSection.classList.contains("active")) {
+            return;
+        }
+
+        // Avoid restarting the animation on every class change
+        if (hasAnimated) return;
+        hasAnimated = true;
+
+        bars.forEach(function (bar, index) {
+            const targetWidth = Number(bar.dataset.width) || 0;
+
+            bar.style.width = "0%";
+
+            setTimeout(function () {
+                bar.style.width = Math.min(
+                    100,
+                    Math.max(0, targetWidth)
+                ) + "%";
+            }, 250 + index * 180);
+        });
+    }
+
+    // Watch for your existing navigation activating Skills
+    const observer = new MutationObserver(animateSkillBars);
+
+    observer.observe(skillsSection, {
+        attributes: true,
+        attributeFilter: ["class"]
+    });
+
+    // Also animate if Skills is already active
+    animateSkillBars();
+});
+</script>
+</body>
+</html>
